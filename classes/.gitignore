@@ -1,3 +1,4 @@
 source
 .vscode/
-.o
+*.o
+#why it still not working? fuck
