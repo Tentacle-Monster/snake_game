@@ -1,0 +1,24 @@
+#include <iostream>
+#include "segment.h"
+using namespace std;
+class segment
+{
+  private:
+    /* data */
+  public:
+    void say_hi();
+    segment(/* args */);
+    ~segment();
+};
+
+segment::segment(/* args */)
+{
+}
+
+void say_hi(void)
+{
+    cout << "иди в пизду" << '\n';
+}
+segment::~segment()
+{
+}
